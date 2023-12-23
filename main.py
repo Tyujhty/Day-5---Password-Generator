@@ -14,14 +14,11 @@ easy_password = []
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
 
 for nr_letter in range(0, nr_letters):
-  choosen_letters = random.choice(letters)
-  easy_password.append(choosen_letters)
+  easy_password.append(random.choice(letters))
 for nr_symbol in range(0, nr_symbols):
-  choosen_symbols = random.choice(symbols)
-  easy_password.append(choosen_symbols)
+  easy_password.append(random.choice(symbols))
 for nr_number in range(0, nr_numbers):
-  choosen_numbers = random.choice(numbers)
-  easy_password.append(choosen_numbers)
+  easy_password.append(random.choice(numbers))
   
 # easy_password_string = ''.join(easy_password)
 # print(f"Your password is: {easy_password_string}")
